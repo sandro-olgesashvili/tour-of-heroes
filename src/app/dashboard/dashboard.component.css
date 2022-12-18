@@ -1,0 +1,25 @@
+h2 {
+    padding-block: 50px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.container-item {
+    display: flex;
+    gap: 20px;
+}
+
+
+
+h3 {
+    background-color: rgb(67, 76, 108);
+    padding: 15px 30px;
+    color: #fff;
+    font-weight: normal;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+h3:hover {
+    background-color: black;
+}

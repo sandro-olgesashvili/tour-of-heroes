@@ -1,0 +1,11 @@
+<div class="hero-container">
+  <h2>My Heroes</h2>
+  <div
+    *ngFor="let item of data"
+    class="hero-item"
+    [routerLink]="item.id.toString()"
+  >
+    <h5>{{ item.id }}</h5>
+    <h5>{{ item.name }}</h5>
+  </div>
+</div>

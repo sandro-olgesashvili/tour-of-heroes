@@ -1,0 +1,30 @@
+h3 {
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.input {
+  margin-block: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+input {
+    padding: 5px 10px;
+}
+
+a {
+  padding: 10px;
+  background-color: lightgray;
+  margin-top: 10px;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+
+a:hover {
+    color: #fff;
+    background-color: gray;
+}

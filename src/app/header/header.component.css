@@ -1,0 +1,22 @@
+.header h1 {
+    color: rgb(60, 60, 138);
+    font-size: 40px;
+}
+
+.router {
+    margin-block: 20px;
+}
+
+.router a {
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: all 0.5s;
+}
+
+.router a:hover {
+    background-color: gray;
+}

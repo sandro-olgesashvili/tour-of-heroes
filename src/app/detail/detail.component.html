@@ -1,0 +1,11 @@
+<div>
+  <div *ngFor="let item of items">
+    <h3>{{text.toUpperCase()}} Details</h3>
+    <span>id: {{item.id}}</span>
+    <div class="input">
+        <label>Hero Name: </label>
+        <input type="text" [(ngModel)]="text" [value]="item.name">
+    </div>
+    <a routerLink="../" (click)="onUpdate(item.id, text)">Back</a>
+  </div>
+</div>

@@ -1,0 +1,10 @@
+<div>
+  <h2>TOP Heores</h2>
+  <div class="container-item">
+    <h3 *ngFor="let item of data" [routerLink]="item.id.toString()">
+      {{ item.name }}
+    </h3>
+  </div>
+</div>
+
+
